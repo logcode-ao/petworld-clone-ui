@@ -2,31 +2,100 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
-.header {
-}
+.header {}
 
-.main {
-}
+.main {}
 
-.banner {
-}
+.banner {}
 
-.video {
-}
+.video {}
 
-.partners {
-}
+.partners {}
 
-.services {
-}
+.services {}
 
-.self {
-}
+.self {}
 
-.more {
-}
+.more {}
 
 .footer {
+  background: #fcfaf5;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 8rem;
+}
+
+.footer .infoFooter {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .logoFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.footer .emailFooter h1 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: .5rem;
+}
+
+.footer .emailFooter form input {
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid blue;
+  padding-left: 8px;
+  width: 15rem;
+  height: 2.5rem;
+}
+
+.footer .emailFooter form button {
+  height: 2.5rem;
+  width: 4rem;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  margin-left: .5rem;
+}
+
+.footer .linksFooter {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer .linksFooter .infoLinks h2 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.footer .linksFooter .infoLinks ul li {
+  padding: .4rem 0;
+}
+
+.footer .copyFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.footer .copyFooter .copy {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer .copyFooter .copy h3 {
+  font-size: 15px;
+}
+
+.footer .copyFooter .Icons {
+  display: flex;
+  gap: .5rem;
 }
