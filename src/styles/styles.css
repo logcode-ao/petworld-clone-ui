@@ -62,7 +62,7 @@ gap: 12px;
 
 .footer .emailFooter h1 {
 color: #2D2D2D;
-font-family: Poppins-Light;
+font-family: "Inter";
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -100,7 +100,7 @@ gap: 20px;
 
 .footer .infoFooter .copy h3 {
 color: #2D2D2D;
-font-family: Poppins-Light;
+font-family: "Inter";
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
@@ -125,7 +125,7 @@ gap: 60px;
 }
 .footer .linksFooter .infoLinks h2 {
 color: #2D2D2D;
-font-family: Poppins-Light;;
+font-family: "Inter";
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
@@ -141,7 +141,7 @@ gap: 16px;
 
 .footer .linksFooter .infoLinks ul li {
 color: #2D2D2D;
-font-family: Poppins-Light;
+font-family: "Inter";
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
