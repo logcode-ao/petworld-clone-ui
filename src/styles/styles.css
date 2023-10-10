@@ -11,6 +11,20 @@
 
 .banner {}
 
+.video {
+display: flex;
+padding: 70px 258px 70px 257px;
+justify-content: center;
+align-items: center;
+background: #F2FAF8;
+}
+.video video{
+width: 765px;
+height: 460px;
+flex-shrink: 0;
+border-radius: 10px;
+background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 0.50) 100%);
+}
 .video {}
 
 .partners {}
