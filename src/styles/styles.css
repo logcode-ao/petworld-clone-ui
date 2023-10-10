@@ -124,7 +124,7 @@ align-items: flex-start;
 gap: 60px;
 }
 .footer .linksFooter .infoLinks h2 {
-  color: #2D2D2D;
+color: #2D2D2D;
 font-family: Poppins-Light;;
 font-size: 18px;
 font-style: normal;
@@ -140,7 +140,7 @@ gap: 16px;
 }
 
 .footer .linksFooter .infoLinks ul li {
-  color: #2D2D2D;
+color: #2D2D2D;
 font-family: Poppins-Light;
 font-size: 18px;
 font-style: normal;
