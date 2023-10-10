@@ -22,80 +22,139 @@
 .more {}
 
 .footer {
-  background: #fcfaf5;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 0 8rem;
+  background: #FFF;;
+  height: 413px;
+  align-self: stretch;
 }
 
 .footer .infoFooter {
-  margin-top: 4rem;
+  padding: 4rem 8rem;
   display: flex;
   justify-content: space-between;
 }
 
 .footer .logoFooter {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 40px;
+}
+.footer .logoFooter .logo img{
+display: inline-flex;
+align-items: center;
+gap: 10px;
+}
+.footer .logoFooter .email_copy{
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 33px;
+}
+
+.footer .emailFooter{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
 }
 
 .footer .emailFooter h1 {
-  font-size: 16px;
-  font-weight: normal;
-  margin-bottom: .5rem;
+color: #2D2D2D;
+font-family: Poppins-Light;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
 }
 
 .footer .emailFooter form input {
-  outline: none;
-  border-radius: 8px;
-  border: 1px solid blue;
-  padding-left: 8px;
-  width: 15rem;
-  height: 2.5rem;
+outline: none;
+display: flex;
+width: 320px;
+height: 54px;
+padding: 11px 152px 11px 20px;
+align-items: center;
+border-radius: 10px;
+border: 1px solid #D0D0D0;
 }
 
+.footer .emailFooter form {
+display: flex;
+align-items: flex-start;
+gap: 20px;
+}
 .footer .emailFooter form button {
-  height: 2.5rem;
-  width: 4rem;
-  border-radius: 8px;
   border: none;
-  background-color: blue;
-  color: #fff;
-  margin-left: .5rem;
+  width: 116px;
+  height: 54px;
+  border-radius: 10px;
+  background: #36F;
+}
+.footer .infoFooter .copy {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.footer .infoFooter .copy h3 {
+color: #2D2D2D;
+font-family: Poppins-Light;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; 
 }
 
 .footer .linksFooter {
-  display: flex;
-  gap: 2rem;
+display: flex;
+width: 417px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 99px;
 }
 
+.footer .linksFooter .links-story{
+display: flex;
+height: 144px;
+justify-content: center;
+align-items: flex-start;
+gap: 60px;
+}
 .footer .linksFooter .infoLinks h2 {
-  font-size: 16px;
-  margin-bottom: 1rem;
+  color: #2D2D2D;
+font-family: Poppins-Light;;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+}
+
+.footer .linksFooter .infoLinks ul{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
 }
 
 .footer .linksFooter .infoLinks ul li {
-  padding: .4rem 0;
+  color: #2D2D2D;
+font-family: Poppins-Light;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
 }
 
-.footer .copyFooter {
+.footer .copyFooter .icons {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 2rem;
+  align-items: flex-start;
+  gap: 20px;
 }
-
-.footer .copyFooter .copy {
-  display: flex;
-  gap: 1rem;
-}
-
-.footer .copyFooter .copy h3 {
-  font-size: 15px;
-}
-
-.footer .copyFooter .Icons {
-  display: flex;
-  gap: .5rem;
+.footer .copyFooter .icons i{
+width: 30px;
+height: 30px;
+flex-shrink: 0;
 }
