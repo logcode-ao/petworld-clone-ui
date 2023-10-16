@@ -33,7 +33,65 @@ background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 
 
 .self {}
 
-.more {}
+.more {
+display: flex;
+height: 498px;
+padding: 60px 160px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #FCFAF5;
+}
+.more .infoMore{
+display: flex;
+align-items: center;
+gap: 100px;
+}
+.more .infoMore .descricaoMore{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+.more .infoMore .descricaoMore h1{
+color: #2D2D2D;
+width: 385px;
+font-family: "Inter";
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px;
+}
+.more .infoMore .descricaoMore p{
+color: #2D2D2D;
+width: 385px;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.more .infoMore .descricaoMore button{
+width: 203px;
+height: 64px;
+border-radius: 10px;
+background: #F8D57E;
+border: none;
+/* opacity: 0.001; */
+color: #2D2D2D;
+text-align: center;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+text-decoration: none;
+cursor: pointer;
+}
+.more .infoMore .imagemMore{
+  width: 475px;
+height: 360px;
+}
 
 .footer {
   background: #FFF;;
