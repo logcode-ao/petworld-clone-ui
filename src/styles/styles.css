@@ -28,7 +28,8 @@ background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 
 
 .partners {}
 
-.services {}
+.services {
+}
 
 .self {
   display: flex;
