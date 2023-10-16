@@ -31,7 +31,9 @@ background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 
 
 .services {}
 
-.self {}
+.self {
+  
+}
 
 .more {
 display: flex;
