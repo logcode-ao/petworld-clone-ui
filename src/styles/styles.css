@@ -26,7 +26,50 @@ border-radius: 10px;
 background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 0.50) 100%);
 }
 
-.partners {}
+.partners {
+  display: flex;
+height: 200px;
+padding: 0px 172.909px 0px 172px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #FFF;
+}
+.partners .infoPartners{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.partners .infoPartners .nestle{
+width: 133.355px;
+height: 35px;
+flex-shrink: 0;
+}
+.partners .infoPartners .apple{
+  width: 29.481px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .beco{
+  width: 60.092px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .amazon{
+  width: 115.581px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .google{
+  width: 106.325px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .walmart{
+  width: 140.258px;
+  height: 35px;
+  flex-shrink: 0;
+}
 
 .services {
   display: flex;
