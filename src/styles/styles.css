@@ -5,10 +5,6 @@
   list-style: none;
 }
 
-.header {}
-
-.main {}
-
 .banner {
 display: flex;
 height: 600px;
