@@ -5,11 +5,71 @@
   list-style: none;
 }
 
-.header {}
-
-.main {}
-
-.banner {}
+.banner {
+display: flex;
+height: 600px;
+padding: 70px 100px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #F7F5FD;
+}
+.banner .descBanner{
+display: flex;
+width: 1080px;
+justify-content: center;
+align-items: flex-start;
+gap: 114px;
+}
+.banner .descBanner .infoBanner{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 41px;
+}
+.banner .descBanner .infoBanner h1{
+width: 423.789px;
+height: 176px;
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px;
+}
+.banner .descBanner .infoBanner h2{
+width: 466px;
+height: 90.241px;
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+opacity: 0.5;
+}
+.banner .descBanner .infoBanner button{
+width: 203px;
+height: 64px;
+border-radius: 10px;
+background: #F8D57E;
+border: none;
+color: #2D2D2D;
+text-align: center;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+text-decoration: none;
+cursor: pointer;
+/* opacity: 0.001; */
+}
+.banner .descBanner .imagemBanner{
+width: 500px;
+height: 460px;
+flex-shrink: 0;
+}
 
 .video {
 display: flex;
@@ -27,7 +87,7 @@ background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 
 }
 
 .partners {
-  display: flex;
+display: flex;
 height: 200px;
 padding: 0px 172.909px 0px 172px;
 justify-content: center;
@@ -81,7 +141,7 @@ align-self: stretch;
 background: #FFF;
 }
 .services .infoServices{
-  display: flex;
+display: flex;
 align-items: flex-start;
 gap: 60px;
 }
