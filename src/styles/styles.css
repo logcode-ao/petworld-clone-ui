@@ -5,6 +5,58 @@
   list-style: none;
 }
 
+.header {
+  display: flex;
+height: 100px;
+padding: 23px 100px;
+justify-content: center;
+align-items: center;
+gap: 675px;
+align-self: stretch;
+background: rgba(255, 255, 255, 0.00);
+}
+.header h1 img{
+  display: flex;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+.header .btn-login-signup{
+display: flex;
+width: 251px;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.header .btn-login-signup button{
+width: 68px;
+height: 33px;
+flex-shrink: 0;
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+background: none;
+border: none;
+cursor: pointer;
+}
+.header .btn-login-signup button+button{
+  width: 153px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #36F;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+text-decoration: none;
+}
 .banner {
 display: flex;
 height: 600px;
