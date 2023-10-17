@@ -28,7 +28,52 @@ background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 
 
 .partners {}
 
-.services {}
+.services {
+  display: flex;
+height: 500px;
+padding: 116px 90px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #FFF;
+}
+.services .infoServices{
+  display: flex;
+align-items: flex-start;
+gap: 60px;
+}
+.services .infoServices section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.services .infoServices section img{
+width: 85px;
+height: 85px;
+flex-shrink: 0;
+}
+.services .infoServices section h2{
+  color: #2D2D2D;
+  font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; 
+}
+.services .infoServices section p{
+  font-family: "Inter";
+  width: 230px;
+  color: #2D2D2D;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+opacity: 0.5;
+}
+.services {
+}
 
 .self {
   display: flex;
