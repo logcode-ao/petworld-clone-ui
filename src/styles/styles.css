@@ -1,0 +1,477 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+height: 100px;
+padding: 23px 100px;
+justify-content: center;
+align-items: center;
+gap: 675px;
+align-self: stretch;
+background: rgba(255, 255, 255, 0.00);
+}
+.header h1 img{
+  display: flex;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+.header .btn-login-signup{
+display: flex;
+width: 251px;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.header .btn-login-signup button{
+width: 68px;
+height: 33px;
+flex-shrink: 0;
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+background: none;
+border: none;
+cursor: pointer;
+}
+.header .btn-login-signup button+button{
+  width: 153px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #36F;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+text-decoration: none;
+}
+.banner {
+display: flex;
+height: 600px;
+padding: 70px 100px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #F7F5FD;
+}
+.banner .descBanner{
+display: flex;
+width: 1080px;
+justify-content: center;
+align-items: flex-start;
+gap: 114px;
+}
+.banner .descBanner .infoBanner{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 41px;
+}
+.banner .descBanner .infoBanner h1{
+width: 423.789px;
+height: 176px;
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px;
+}
+.banner .descBanner .infoBanner h2{
+width: 466px;
+height: 90.241px;
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+opacity: 0.5;
+}
+.banner .descBanner .infoBanner button{
+width: 203px;
+height: 64px;
+border-radius: 10px;
+background: #F8D57E;
+border: none;
+color: #2D2D2D;
+text-align: center;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+text-decoration: none;
+cursor: pointer;
+/* opacity: 0.001; */
+}
+.banner .descBanner .imagemBanner{
+width: 500px;
+height: 460px;
+flex-shrink: 0;
+}
+
+.video {
+display: flex;
+padding: 70px 258px 70px 257px;
+justify-content: center;
+align-items: center;
+background: #F2FAF8;
+}
+.video video{
+width: 765px;
+height: 460px;
+flex-shrink: 0;
+border-radius: 10px;
+background: linear-gradient(180deg, rgba(45, 45, 45, 0.90) 0%, rgba(45, 45, 45, 0.50) 100%);
+}
+
+.partners {
+display: flex;
+height: 200px;
+padding: 0px 172.909px 0px 172px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #FFF;
+}
+.partners .infoPartners{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.partners .infoPartners .nestle{
+width: 133.355px;
+height: 35px;
+flex-shrink: 0;
+}
+.partners .infoPartners .apple{
+  width: 29.481px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .beco{
+  width: 60.092px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .amazon{
+  width: 115.581px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .google{
+  width: 106.325px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.partners .infoPartners .walmart{
+  width: 140.258px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.services {
+  display: flex;
+height: 500px;
+padding: 116px 90px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #FFF;
+}
+.services .infoServices{
+display: flex;
+align-items: flex-start;
+gap: 60px;
+}
+.services .infoServices section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.services .infoServices section img{
+width: 85px;
+height: 85px;
+flex-shrink: 0;
+}
+.services .infoServices section h2{
+  color: #2D2D2D;
+  font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; 
+}
+.services .infoServices section p{
+  font-family: "Inter";
+  width: 230px;
+  color: #2D2D2D;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+opacity: 0.5;
+}
+
+.self {
+  display: flex;
+height: 500px;
+padding: 50px 224.5px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #ECE7FB;
+}
+.self .decSelf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.self .decSelf .imagemSelf{
+  width: 353px;
+  height: 400px;
+}
+.self .decSelf .infoSelf{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.self .decSelf .infoSelf img{
+  width: 61.842px;
+  height: 45.532px;
+}
+.self .decSelf .infoSelf p{
+width: 418px;
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+}
+.self .decSelf .infoSelf h2{
+font-family: "Inter";
+color: #2D2D2D;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+opacity: 0.5;
+}
+
+.more {
+display: flex;
+height: 498px;
+padding: 60px 160px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background: #FCFAF5;
+}
+.more .infoMore{
+display: flex;
+align-items: center;
+gap: 100px;
+}
+.more .infoMore .descricaoMore{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+.more .infoMore .descricaoMore h1{
+color: #2D2D2D;
+width: 385px;
+font-family: "Inter";
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px;
+}
+.more .infoMore .descricaoMore p{
+color: #2D2D2D;
+width: 385px;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.more .infoMore .descricaoMore button{
+width: 203px;
+height: 64px;
+border-radius: 10px;
+background: #F8D57E;
+border: none;
+/* opacity: 0.001; */
+color: #2D2D2D;
+text-align: center;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+text-decoration: none;
+cursor: pointer;
+}
+.more .infoMore .imagemMore{
+  width: 475px;
+height: 360px;
+}
+
+.footer {
+  background: #FFF;;
+  height: 413px;
+  align-self: stretch;
+}
+
+.footer .infoFooter {
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .logoFooter {
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 40px;
+}
+.footer .logoFooter .logo img{
+display: inline-flex;
+align-items: center;
+gap: 10px;
+}
+.footer .logoFooter .email_copy{
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 33px;
+}
+
+.footer .emailFooter{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.footer .emailFooter h1 {
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.footer .emailFooter form input {
+outline: none;
+display: flex;
+width: 320px;
+height: 54px;
+padding: 11px 152px 11px 20px;
+align-items: center;
+border-radius: 10px;
+border: 1px solid #D0D0D0;
+}
+
+.footer .emailFooter form {
+display: flex;
+align-items: flex-start;
+gap: 20px;
+}
+.footer .emailFooter form button {
+  border: none;
+  width: 116px;
+  height: 54px;
+  border-radius: 10px;
+  color: #FFF;
+  background: #36F;
+}
+.footer .infoFooter .copy {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.footer .infoFooter .copy h3 {
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; 
+}
+
+.footer .linksFooter {
+display: flex;
+width: 417px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 99px;
+}
+
+.footer .linksFooter .links-story{
+display: flex;
+height: 144px;
+justify-content: center;
+align-items: flex-start;
+gap: 60px;
+}
+.footer .linksFooter .infoLinks h2 {
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+}
+
+.footer .linksFooter .infoLinks ul{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+
+.footer .linksFooter .infoLinks ul li {
+color: #2D2D2D;
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.footer .copyFooter .icons {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footer .copyFooter .icons i{
+width: 30px;
+height: 30px;
+flex-shrink: 0;
+}
